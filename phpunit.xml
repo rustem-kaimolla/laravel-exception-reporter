@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        bootstrap="vendor/autoload.php"
+        colors="true"
+        verbose="true"
+        stopOnFailure="false"
+        xsi:noNamespaceSchemaLocation="https://schema.phpunit.de/10.1/phpunit.xsd"
+>
+    <testsuites>
+        <testsuite name="Package Test Suite">
+            <directory suffix="Test.php">./tests</directory>
+        </testsuite>
+    </testsuites>
+
+    <coverage processUncoveredFiles="true">
+        <include>
+            <directory suffix=".php">src</directory>
+        </include>
+    </coverage>
+
+    <php>
+        <env name="APP_ENV" value="testing"/>
+        <env name="APP_KEY" value="base64:4nHSxWgkg3NQk8dFBLzckU1xO6JvQ3lvjb9jEnY9sBs="/>
+        <env name="EXCEPTION_REPORTER_ENABLED" value="true"/>
+        <env name="EXCEPTION_TCP_HOST" value="127.0.0.1"/>
+        <env name="EXCEPTION_TCP_PORT" value="9000"/>
+    </php>
+</phpunit>
