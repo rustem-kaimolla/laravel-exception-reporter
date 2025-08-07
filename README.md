@@ -1,4 +1,4 @@
-# Laravel Exception Reporter
+# Laravel Exception Reporter LLM + Jira
 
 ![Laravel Exception Reporter](https://raw.githubusercontent.com/rustem-kaimolla/laravel-exception-reporter/main/cmd.png)
 
