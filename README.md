@@ -1,5 +1,11 @@
 # Laravel Exception Reporter
 
+![Laravel Exception Reporter](https://raw.githubusercontent.com/rustem-kaimolla/laravel-exception-reporter/main/cmd.png)
+
+LLM exception analysis and automatic creation of incident as bug in Jira
+
+[![Total Downloads](https://img.shields.io/packagist/dt/rustem-kaimolla/laravel-exception-reporter.svg?style=flat-square)](https://packagist.org/packages/rustem-kaimolla/laravel-exception-reporter)
+
 A simple exception reporting agent for Laravel applications that sends exceptions to a remote Exception Reporter Agent service https://github.com/rustem-kaimolla/exception-reporter-agent.
 
 ## Installation
